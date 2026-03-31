@@ -51,6 +51,13 @@ export default function Header() {
             카테고리
           </Link>
           <Link
+            href="/graph"
+            className="text-sm font-medium hover:opacity-70 transition-opacity"
+            style={{ color: "var(--text-secondary)" }}
+          >
+            그래프
+          </Link>
+          <Link
             href="/about"
             className="text-sm font-medium hover:opacity-70 transition-opacity"
             style={{ color: "var(--text-secondary)" }}
