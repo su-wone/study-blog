@@ -11,7 +11,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **다크/라이트 모드** — 부드러운 전환 애니메이션 포함
 - **실시간 클라이언트 사이드 검색** — 별도 서버 요청 없이 즉시 필터링
@@ -29,7 +29,7 @@
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | 분류 | 기술 |
 |------|------|
@@ -41,7 +41,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **사전 요구사항:** Node.js 18 이상
 
@@ -67,7 +67,7 @@ npm run start
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 study-blog/
@@ -99,7 +99,7 @@ study-blog/
 
 ---
 
-## ✍️ Writing Posts
+## Writing Posts
 
 `src/content/posts/` 디렉토리에 `.md` 파일을 추가합니다.
 
@@ -125,7 +125,7 @@ tags: ["javascript", "태그2"]
 
 ---
 
-## 🌐 Deploy
+## Deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/su-wone/study-blog)
 
