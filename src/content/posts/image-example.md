@@ -22,14 +22,14 @@ public/
 ### 2. 마크다운에서 불러오기
 
 ```markdown
-![대체 텍스트](/images/my-photo.png)
+![대체 텍스트](/images/pull.png)
 ```
 
 ### 3. 실제 사용 예시
 
 아래처럼 쓰면 이미지가 표시됩니다:
 
-![예시 이미지](/images/example.png)
+![예시 이미지](/images/pull.png)
 
 ### 4. 크기 조절이 필요한 경우
 
