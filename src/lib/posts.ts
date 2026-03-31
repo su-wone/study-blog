@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import remarkGfm from "remark-gfm";
 
 const postsDirectory = path.join(process.cwd(), "src/content/posts");
 
@@ -53,7 +54,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   if (!fs.existsSync(filePath)) return null;
   const fileContents = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(fileContents);
-  const processed = await remark().use(html, { sanitize: false }).process(content);
+  const processed = await remark().use(remarkGfm).use(html, { sanitize: false }).process(content);
   const rawHtml = processed.toString();
   const readingTime = calculateReadingTime(content);
   // Add IDs to headings for TOC
