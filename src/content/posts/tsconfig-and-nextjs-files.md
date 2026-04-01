@@ -4,6 +4,7 @@ date: "2026-03-23"
 description: "TypeScript 설정 파일 tsconfig.json의 역할과 Next.js 개발 서버 실행 시 생성되는 파일들을 정리합니다."
 category: "TypeScript"
 tags: ["typescript", "tsconfig", "nextjs", "기초"]
+order: 2
 ---
 
 ## tsconfig.json이란

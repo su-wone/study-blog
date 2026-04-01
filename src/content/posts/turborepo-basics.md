@@ -4,6 +4,7 @@ date: "2026-03-20"
 description: "Monorepo의 CI 속도, 설정 복잡함, 빌드 순서, 캐시 공유 문제를 Turborepo가 어떻게 해결하는지 정리합니다."
 category: "DevOps"
 tags: ["turborepo", "monorepo", "빌드", "CI"]
+order: 6
 ---
 
 ## Turborepo 등장 배경

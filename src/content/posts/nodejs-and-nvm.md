@@ -4,6 +4,7 @@ date: "2026-03-21"
 description: "Node.js의 개념, 설치 방법, 그리고 실무에서 nvm을 사용하는 이유를 정리합니다."
 category: "Node.js"
 tags: ["nodejs", "nvm", "설치", "기초"]
+order: 1
 ---
 
 ## Node.js란

@@ -4,6 +4,7 @@ date: "2026-03-20"
 description: "여러 곳에서 반복적으로 쓰이는 범용 도우미 함수인 유틸함수의 개념과 활용법을 정리합니다."
 category: "JavaScript"
 tags: ["유틸함수", "lodash", "기초"]
+order: 2
 ---
 
 ## 유틸함수(Utility Function)란

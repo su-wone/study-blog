@@ -4,6 +4,7 @@ date: "2026-03-20"
 description: "실무에서 자주 사용하는 Git 명령어를 상황별로 정리합니다."
 category: "DevOps"
 tags: ["git", "버전관리", "devops"]
+order: 2
 ---
 
 ## 기본 워크플로우

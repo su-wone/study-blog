@@ -4,6 +4,7 @@ date: "2026-04-01"
 description: "TypeScript의 interface로 props 명세를 작성하는 법, 컴포넌트가 props를 받는 구조, 그리고 prop drilling 문제와 해결책을 정리합니다."
 category: "React"
 tags: ["typescript", "react", "interface", "props", "prop-drilling", "기초"]
+order: 2
 ---
 
 ## interface란

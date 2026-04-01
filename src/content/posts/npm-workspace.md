@@ -4,6 +4,7 @@ date: "2026-03-21"
 description: "npm workspace의 개념, 설정 방법, 그리고 Node.js 설치와 프로젝트 생성의 차이를 정리합니다."
 category: "Node.js"
 tags: ["npm", "workspace", "monorepo", "기초"]
+order: 4
 ---
 
 ## npm workspace란

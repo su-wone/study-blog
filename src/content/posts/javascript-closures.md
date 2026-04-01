@@ -4,6 +4,7 @@ date: "2026-03-28"
 description: "클로저의 개념, 동작 원리, 실용적인 활용 패턴까지 정리합니다."
 category: "JavaScript"
 tags: ["javascript", "closure", "함수형프로그래밍"]
+order: 1
 ---
 
 ## 클로저란?

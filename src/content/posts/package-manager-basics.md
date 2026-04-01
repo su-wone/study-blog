@@ -4,6 +4,7 @@ date: "2026-03-20"
 description: "npm, yarn, pnpm의 차이점과 package.json, 유령 의존성 등 패키지 매니저의 핵심 개념을 정리합니다."
 category: "Node.js"
 tags: ["npm", "yarn", "pnpm", "패키지매니저", "기초"]
+order: 3
 ---
 
 ## 패키지 매니저(Package Manager)란

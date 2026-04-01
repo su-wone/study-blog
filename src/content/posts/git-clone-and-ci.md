@@ -4,6 +4,7 @@ date: "2026-03-21"
 description: "git clone의 개념, CI가 필요한 이유, CI 서버에서 npm ci를 쓰는 이유를 정리합니다."
 category: "DevOps"
 tags: ["git", "CI", "npm", "기초"]
+order: 3
 ---
 
 ## git clone이란
