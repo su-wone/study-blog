@@ -3,6 +3,8 @@
 import { useState } from "react";
 import PostCard from "./PostCard";
 import SearchBar from "./SearchBar";
+import LearningPathCard from "./LearningPathCard";
+import type { LearningPath } from "@/lib/learningPaths";
 
 interface Post {
   slug: string;
@@ -13,7 +15,18 @@ interface Post {
   tags: string[];
 }
 
-export default function HomeContent({ posts }: { posts: Post[] }) {
+interface PathWithPosts {
+  path: LearningPath;
+  posts: { slug: string; title: string }[];
+}
+
+export default function HomeContent({
+  posts,
+  paths,
+}: {
+  posts: Post[];
+  paths: PathWithPosts[];
+}) {
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredPosts = posts.filter((post) => {
@@ -43,6 +56,28 @@ export default function HomeContent({ posts }: { posts: Post[] }) {
         <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
           총 {posts.length}개의 글
         </p>
+      </section>
+
+      {/* Learning Paths */}
+      <section className="mb-10">
+        <h2 className="text-lg font-semibold mb-4" style={{ color: "var(--text)" }}>
+          학습 경로
+        </h2>
+        <p className="text-sm mb-4" style={{ color: "var(--text-secondary)" }}>
+          어디서부터 읽을지 고민된다면, 경로를 따라 순서대로 읽어보세요.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {paths.map(({ path, posts: pathPosts }) => (
+            <LearningPathCard
+              key={path.id}
+              title={path.title}
+              description={path.description}
+              icon={path.icon}
+              color={path.color}
+              posts={pathPosts}
+            />
+          ))}
+        </div>
       </section>
 
       {/* Search */}
