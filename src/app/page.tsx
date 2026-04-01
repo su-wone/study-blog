@@ -4,17 +4,15 @@ import HomeContent from "@/components/HomeContent";
 
 export default function Home() {
   const posts = getAllPosts();
-  const postMap = new Map(posts.map((p) => [p.slug, p]));
-
-  const paths = learningPaths.map((path) => ({
-    path,
-    posts: path.slugs
-      .filter((slug) => postMap.has(slug))
-      .map((slug) => {
-        const post = postMap.get(slug)!;
-        return { slug: post.slug, title: post.title };
-      }),
-  }));
+  const paths = learningPaths
+    .map((path) => ({
+      path,
+      posts: posts
+        .filter((p) => p.category === path.category)
+        .sort((a, b) => (a.order || 99) - (b.order || 99))
+        .map((p) => ({ slug: p.slug, title: p.title })),
+    }))
+    .filter(({ posts: p }) => p.length > 0);
 
   return <HomeContent posts={posts} paths={paths} />;
 }
