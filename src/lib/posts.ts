@@ -14,6 +14,7 @@ export interface PostMeta {
   description: string;
   category: string;
   tags: string[];
+  order?: number;
 }
 
 export interface Post extends PostMeta {
@@ -44,6 +45,7 @@ export function getAllPosts(): PostMeta[] {
         description: data.description || "",
         category: data.category || "미분류",
         tags: data.tags || [],
+        order: data.order || undefined,
       };
     });
   return posts.sort((a, b) => (a.date > b.date ? -1 : 1));

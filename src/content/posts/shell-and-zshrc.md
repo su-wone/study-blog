@@ -4,6 +4,7 @@ date: "2026-03-21"
 description: "쉘의 개념, ~/.zshrc 설정 파일의 역할, 환경변수 등록과 source 명령어를 정리합니다."
 category: "DevOps"
 tags: ["shell", "zsh", "터미널", "기초"]
+order: 1
 ---
 
 ## 쉘(Shell)이란

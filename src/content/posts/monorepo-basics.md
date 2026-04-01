@@ -4,6 +4,7 @@ date: "2026-03-20"
 description: "Monorepo의 개념, Polyrepo에서 넘어온 이유, 장단점, 그리고 도구 설정이 복잡해지는 이유를 정리합니다."
 category: "DevOps"
 tags: ["monorepo", "polyrepo", "turborepo", "기초"]
+order: 5
 ---
 
 ## Monorepo란

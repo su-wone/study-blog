@@ -4,6 +4,7 @@ date: "2026-03-23"
 description: "Next.js 설치 방법, 파일 기반 라우팅 개념, app 폴더 구조 생성까지의 과정을 정리합니다."
 category: "Next.js"
 tags: ["nextjs", "설치", "라우팅", "기초"]
+order: 1
 ---
 
 ## Next.js 설치 순서

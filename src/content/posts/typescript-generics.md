@@ -4,6 +4,7 @@ date: "2026-03-15"
 description: "타입 안정성과 재사용성을 동시에 잡는 제네릭의 핵심 개념을 정리합니다."
 category: "TypeScript"
 tags: ["typescript", "generics", "타입시스템"]
+order: 1
 ---
 
 ## 제네릭이란?

@@ -4,6 +4,7 @@ date: "2026-03-23"
 description: "프로젝트에서 사용할 Node.js 버전을 .nvmrc 파일로 명시하고 적용하는 방법을 정리합니다."
 category: "Node.js"
 tags: ["nvm", "nodejs", "설정", "기초"]
+order: 2
 ---
 
 ## .nvmrc란
