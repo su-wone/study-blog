@@ -56,4 +56,12 @@ export const learningPaths: LearningPath[] = [
     icon: "code",
     color: "#171717",
   },
+  {
+    id: "retrospective",
+    category: "회고",
+    title: "프로젝트 회고",
+    description: "실제 프로젝트 경험에서 배운 것들을 정리",
+    icon: "book",
+    color: "#6366f1",
+  },
 ];
