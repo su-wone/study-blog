@@ -8,6 +8,7 @@ export function getCategoryColor(category: string): string {
     "Node.js": "#22c55e",
     "Next.js": "#171717",
     "DevOps": "#ec4899",
+    "회고": "#6366f1",
   };
   return colors[category] || "var(--accent)";
 }
