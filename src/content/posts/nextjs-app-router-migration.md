@@ -1,6 +1,6 @@
 ---
 title: "Next.js App Router 전환기 — Pages Router에서 App Router로, 무엇이 달라졌는가"
-date: "2026-04-01"
+date: "2026-03-23"
 description: "Next.js Pages Router의 3가지 한계와 App Router가 해결하는 방식을 실제 프로젝트 경험을 바탕으로 정리합니다."
 category: "회고"
 tags: ["nextjs", "app-router", "react", "ssr", "rsc"]
